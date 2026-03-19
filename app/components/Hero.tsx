@@ -7,15 +7,18 @@ const slides = [
   {
     title: "PravRaha -  Your end to end GTM Platform ",
     desc: "From first prospect to final signature",
+    subtitle: "",
     image: "/image.webp",
   },
   {
     title: "The engine behind your next enterprise deal.",
+    subtitle: "",
     desc: "Identify, enrich, and engage your ideal buyers.",
     image: "/hero1.jpg",
   },
   {
     title: "Sell your Products and Services with Confidence",
+    subtitle: "",
     desc: "Deploy, monitor, and scale AI-powered SaaS products with built-in intelligence, automation, and security.",
     image: "/backui.png",
   },
