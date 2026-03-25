@@ -9,22 +9,22 @@ import { motion } from "framer-motion";
 const features = [
   {
     title: "Ideal Customer Profile (ICP) Definition & Account Targeting",
-    desc: "We map your ideal customer profile using firmographic, technographic, and behavioural filters then build a precision target account list sized to your TAM, so every outreach dollar goes to accounts that can actually buy",
+    desc: "We map your ideal customer profile using firmographic, technographic, and behavioural filters then build a precision target account list sized to your TAM, so every outreach dollar goes to accounts that can actually buy.",
     icon: Target,
   },
   {
     title: "SDR-Led Multi-Channel Outreach",
-    desc: "Our trained SDRs run personalised cold email, LinkedIn, and phone sequences on your behalf crafted to your ICP, timed to buying signals, and written to start real conversations with decision-makers",
+    desc: "Our trained SDRs run personalised cold email, LinkedIn, and phone sequences on your behalf crafted to your ICP, timed to buying signals, and written to start real conversations with decision-makers.",
     icon: Users,
   },
   {
     title: "Buyer Intent Data & In-Market Account Signals",
-    desc: "We track job changes, funding rounds, hiring signals, tech stack shifts, and web behavioural data to identify accounts showing active buying intent so your SDRs reach out when prospects are in-market, not just on a list",
+    desc: "We track job changes, funding rounds, hiring signals, tech stack shifts, and web behavioural data to identify accounts showing active buying intent so your SDRs reach out when prospects are in-market, not just on a list.",
     icon: Bot,
   },
   {
     title: "B2B Appointment Setting & Meeting Booking",
-    desc: "Our SDRs handle the full outreach cycle and deliver sales-qualified meetings with verified decision-makers booked directly into your calendar, with a pre-call brief so your AE walks in prepared",
+    desc: "Our SDRs handle the full outreach cycle and deliver sales-qualified meetings with verified decision-makers booked directly into your calendar, with a pre-call brief so your AE walks in prepared.",
     icon: BarChart3,
   },
 ];
@@ -83,7 +83,7 @@ export default function Page() {
           </h2>
 
           <p className="text-lg text-gray-600 mb-20 max-w-2xl mx-auto">
-            Proprietary B2B contact data. Intent-based account targeting. SDR-executed outreach. One platform, precision prospecting, and meetings on your calendar
+            Proprietary B2B contact data. Intent-based account targeting. SDR-executed outreach. One platform, precision prospecting, and meetings on your calendar.
           </p>
 
           <div className="grid md:grid-cols-4 gap-10">

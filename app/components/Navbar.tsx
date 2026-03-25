@@ -8,10 +8,12 @@ export default function Navbar(): React.JSX.Element {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="w-full sticky top-0 z-50 border-b border-gray-300 shadow-sm" style={{ backgroundColor: "#C4CECF" }}>
-      
+    <header
+      className="w-full sticky top-0 z-50 border-b border-gray-300 shadow-sm"
+      style={{ backgroundColor: "#C4CECF" }}
+    >
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
-
+        
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
@@ -45,10 +47,7 @@ export default function Navbar(): React.JSX.Element {
               className="absolute top-full mt-3 left-0 w-96 shadow-xl rounded-xl p-4 border border-gray-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
               style={{ backgroundColor: "#C4CECF" }}
             >
-              <Link
-                href="/go-to-market"
-                className="block px-3 py-3"
-              >
+              <Link href="/go-to-market" className="block px-3 py-3">
                 <h3 className="font-semibold text-lg text-gray-900">
                   Go-to-Market Platform
                 </h3>
@@ -70,10 +69,7 @@ export default function Navbar(): React.JSX.Element {
               className="absolute top-full mt-3 left-0 w-96 shadow-xl rounded-xl p-4 border border-gray-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
               style={{ backgroundColor: "#C4CECF" }}
             >
-              <Link
-                href="/services/b2b-lead-generation"
-                className="block px-3 py-3"
-              >
+              <Link href="/services/b2b-lead-generation" className="block px-3 py-3">
                 <h3 className="font-semibold text-lg text-gray-900">
                   B2B Lead Generation Services
                 </h3>
@@ -95,10 +91,7 @@ export default function Navbar(): React.JSX.Element {
               className="absolute top-full mt-3 left-0 w-64 shadow-xl rounded-xl p-3 border border-gray-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
               style={{ backgroundColor: "#C4CECF" }}
             >
-              <Link
-                href="/resources/blog"
-                className="block px-3 py-2"
-              >
+              <Link href="/resources/blog" className="block px-3 py-2">
                 <h3 className="font-semibold text-gray-900">Blog</h3>
                 <p className="text-sm text-gray-700">
                   Insights, trends, and company updates
@@ -118,10 +111,7 @@ export default function Navbar(): React.JSX.Element {
               className="absolute top-full mt-3 left-0 w-72 shadow-xl rounded-xl border border-gray-300 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
               style={{ backgroundColor: "#C4CECF" }}
             >
-              <Link
-                href="/company/about"
-                className="block px-4 py-3"
-              >
+              <Link href="/company/about" className="block px-4 py-3">
                 <h3 className="font-semibold text-gray-900">About Us</h3>
                 <p className="text-sm text-gray-700 mt-1">
                   Our mission, vision, and leadership
@@ -130,10 +120,7 @@ export default function Navbar(): React.JSX.Element {
 
               <div className="h-px bg-gray-300"></div>
 
-              <Link
-                href="/company/contact"
-                className="block px-4 py-3"
-              >
+              <Link href="/company/contact" className="block px-4 py-3">
                 <h3 className="font-semibold text-gray-900">Contact</h3>
                 <p className="text-sm text-gray-700 mt-1">
                   Talk to our team or request a demo
@@ -145,12 +132,14 @@ export default function Navbar(): React.JSX.Element {
 
         {/* Right Side */}
         <div className="flex items-center gap-4">
-          <Link
-            href="/dashboard"
+          
+          {/* Desktop Get Started (No Navigation) */}
+          <button
+            type="button"
             className="hidden md:inline-flex bg-orange-500 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-orange-600 transition shadow-lg"
           >
             Get Started
-          </Link>
+          </button>
 
           {/* Mobile Button */}
           <button
@@ -169,22 +158,50 @@ export default function Navbar(): React.JSX.Element {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden border-t border-gray-300 shadow-lg" style={{ backgroundColor: "#C4CECF" }}>
+        <div
+          className="md:hidden border-t border-gray-300 shadow-lg"
+          style={{ backgroundColor: "#C4CECF" }}
+        >
           <ul className="flex flex-col items-center gap-6 py-8 text-gray-800 font-medium">
-            <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-            <li><Link href="/go-to-market" onClick={() => setMenuOpen(false)}>Go-to-Market Platform</Link></li>
-            <li><Link href="/services/b2b-lead-generation" onClick={() => setMenuOpen(false)}>B2B Lead Generation Services</Link></li>
-            <li><Link href="/resources/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
-            <li><Link href="/company/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
-            <li><Link href="/company/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+            <li>
+              <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+            </li>
+            <li>
+              <Link href="/go-to-market" onClick={() => setMenuOpen(false)}>
+                Go-to-Market Platform
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/b2b-lead-generation"
+                onClick={() => setMenuOpen(false)}
+              >
+                B2B Lead Generation Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/resources/blog" onClick={() => setMenuOpen(false)}>
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link href="/company/about" onClick={() => setMenuOpen(false)}>
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link href="/company/contact" onClick={() => setMenuOpen(false)}>
+                Contact
+              </Link>
+            </li>
 
-            <Link
-              href="/dashboard"
-              onClick={() => setMenuOpen(false)}
+            {/* Mobile Get Started (No Navigation) */}
+            <button
+              type="button"
               className="bg-orange-500 text-white px-6 py-2 rounded-full"
             >
               Get Started
-            </Link>
+            </button>
           </ul>
         </div>
       )}

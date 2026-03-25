@@ -13,9 +13,9 @@ export default function GoToMarketPage() {
        <div>
     <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">
       <span className="text-[#D4AF37]">
-        The B2B Sales Intelligence & Outreach Platform That Books Meetings —
+        The B2B Sales Intelligence & Outreach Platform 
       </span>{" "}
-      Not Just Delivers Data.
+      
     </h1>
 
     {/* Sub-heading line (missing in your code) */}
@@ -50,7 +50,7 @@ export default function GoToMarketPage() {
       <section className="bg-[#014D4E] text-white py-10">
         <div className="max-w-4xl mx-auto text-center px-6">
           <p className="text-lg leading-relaxed">
-          PravRaha combines proprietary B2B contact data, buyer intent signals, and SDR-led outbound prospecting in a single GTM platform built for growth-stage B2B SaaS companies who want pipeline, not just data          </p>
+          PravRaha combines proprietary B2B contact data, buyer intent signals, and SDR-led outbound prospecting in a single GTM platform built for growth-stage B2B SaaS companies who want pipeline, not just data.          </p>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ export default function GoToMarketPage() {
     </p>
 
     <p className="text-gray-800 text-lg max-w-3xl mx-auto">
-      From ICP targeting to booked meetings — PravRaha&apos;s data, enrichment,
+      From ICP targeting to booked meetings, PravRaha&apos;s data enrichment,
       and SDR outreach capabilities work together so your team spends less time
       prospecting and more time closing deals.
     </p>
@@ -226,7 +226,7 @@ export default function GoToMarketPage() {
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="font-semibold text-lg mb-2 text-gray-800">2. Position</h3>
               <p className="text-[#D4AF37] text-base">
-                Our B2B data engine surfaces in-market buyers from your target accounts then enriches every contact with verified emails, mobile numbers, tech stack, funding signals, and buying intent
+                Our B2B data engine surfaces in-market buyers from your target accounts then enriches every contact with verified emails, mobile numbers, tech stack, funding signals, and buying intent.
               </p>
             </div>
 

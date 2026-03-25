@@ -37,7 +37,7 @@ export default function ContactPage() {
               <strong>We execute the outreach for you.</strong>
               <br />
               Most data platforms give you a contact list and leave the rest to your team.
-              PravRaha’s trained SDR team runs the full outreach — cold email, LinkedIn, and phone on your behalf.
+              PravRaha’s trained SDR team runs the full outreach, cold email, LinkedIn, Whatsapp, SMS and phone on your behalf.
             </li>
 
             <li>
@@ -51,7 +51,7 @@ export default function ContactPage() {
               <strong>We cover the entire GTM motion.</strong>
               <br />
               From ICP definition and contact sourcing to multi-layer enrichment, personalised sequences,
-              meeting booking, and pre-call briefs — one partner, one process, no gaps.
+              meeting booking, and pre-call briefs-one partner, one process, no gaps.
             </li>
 
             <li>
@@ -65,7 +65,7 @@ export default function ContactPage() {
               <strong>We operate with full transparency.</strong>
               <br />
               Weekly reporting shows every account targeted, every sequence running,
-              and every result — with no black box and no guesswork.
+              and every result-with no black box and no guesswork.
             </li>
           </ol>
         </div>
